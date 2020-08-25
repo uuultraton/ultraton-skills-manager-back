@@ -1,0 +1,10 @@
+{
+  "SERVER": {
+    "PORT": 5050
+  },
+  "isProduction": false,
+  "LOGGER_LVL": "your logger lvl",
+  "DB": {
+    "MONGO_URI": "your mongo db url"
+  }
+}
