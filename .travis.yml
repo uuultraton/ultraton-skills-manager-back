@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- stable
+deploy:
+  provider: heroku
+  app: ultraton-skills-manager-back
+  api_key:
+    secure: Hpm1b8nnmV3NzdzKA1NYdSXh+CAdNBYDlOYWvv5vbdDjlEfC4jOJ8S//ddqin4MIsdWpYExU+TjGEp9RC7GIO3oVlC+sa35oh4YtMLh4muk0TQsoxWTEdervOpJl7SNo+qLTmkpl97M0fObBhqukHhI+D78Yk4w2FxOeJPZLbnfVra1aqs7JmjnM+7k1rZh3TyZzYuu+i5f/jg+xDFUV6jw6IlUENuAIpR0gpbZNqzM5VrMeghe3mmLgQtDFULUdAxS6LDxj3GLTa1Wo8WLwrCkecPGGkcD2eokLvPKPkIYxbfAeaA6NB13nHpnIz8vLiaNOnZ6ZG1PTk1imGtJO3/JpDWTOzI4ao3aLWz1uhYHmboGtlU+fz/3ehSlPVxlAVJeVEWh/8KvN2VDNogiIfw/5E6E+AATgVf5WsEJQIEeIZpmndTy97PmeEK23vk9RpODZm8e2ONQnAGOVadBCsp3aNsRT6XIlckwuwi5/OZ9QoklpkNDkupjewZLNsgRfG6fSQHBgOXDkRpwrbIQGvEisdNX3nukt2nXLEge/yauFQI1dSP+sBVvOONeexR6LDsKz9hVw33yrBrPiCueUmix/qCDcsuLD3Sk7WBw5xXSeRdYu+EWnd2zoRKpxwfGuE33MJmA1UIArO1c7jQ5CeWy/cAQ135eHnBP2a9rEfgQ=
+  on: master
+notifications:
+  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
