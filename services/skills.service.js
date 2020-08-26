@@ -1,6 +1,6 @@
 const { Skill } = require('../models');
 const { LOGS } = require('../constants');
-const { skills } = require('../data');
+const { directions, skills } = require('../data');
 const errorHandler = require('errorhandler');
 
 class SkillsService {
@@ -14,6 +14,21 @@ class SkillsService {
       }
 
       return skills;
+    } catch (error) {
+      return errorHandler(error.message);
+    }
+  }
+
+  async getAllDirections() {
+    try {
+      // const skills = await Skill.find({});
+
+      if (!directions) {
+        errorHandler(LOGS.ERROR.SKILLS_NOT_FOUND);
+        return;
+      }
+
+      return directions;
     } catch (error) {
       return errorHandler(error.message);
     }

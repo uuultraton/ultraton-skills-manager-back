@@ -14,6 +14,16 @@ async function startGetAllSkills(req, res) {
   return successResponse(res, STATUSES.RESPONSE.SUCCESS.DEFAULT, skillDocs);
 }
 
+async function startGetAllDirections(req, res) {
+  const skillDocs = await SkillsService.getAllDirections();
+
+  // res.json({
+  //   skills: skillDocs,
+  // });
+
+  return successResponse(res, STATUSES.RESPONSE.SUCCESS.DEFAULT, skillDocs);
+}
+
 async function startGetSkillsByDirection(req, res) {
   const { direction } = req.query;
 
@@ -54,6 +64,7 @@ async function startGetSkillByName(req, res) {
 
 module.exports = {
   startGetAllSkills,
+  startGetAllDirections,
   startGetSkillsByDirection,
   startGetSkillsByTechnologie,
   startGetSkillByName,

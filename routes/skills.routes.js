@@ -2,6 +2,7 @@ const express = require('express');
 
 const {
   startGetAllSkills,
+  startGetAllDirections,
   startGetSkillsByDirection,
   startGetSkillsByTechnologie,
   startGetSkillsByName,
@@ -14,6 +15,8 @@ const router = express.Router();
 
 // , validation(skillsValidator.skills, 'body')
 router.get('/', (req, res) => startGetAllSkills(req, res));
+
+router.get('/directions', (req, res) => startGetAllDirections(req, res));
 
 router.get(
   '/:direction',
