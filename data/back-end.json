@@ -1,0 +1,125 @@
+[
+  { "parent": "Back-end", "technologie": "OS", "name": "Process Management" },
+  {
+    "parent": "Back-end",
+    "technologie": "OS",
+    "name": "Threads and Concurrency"
+  },
+  { "parent": "Back-end", "technologie": "OS", "name": "Sockets" },
+  { "parent": "Back-end", "technologie": "OS", "name": "Memory/Storage" },
+  { "parent": "Back-end", "technologie": "OS", "name": "I/O Management" },
+  { "parent": "Back-end", "technologie": "OS", "name": "Virtualization" },
+  { "parent": "Back-end", "technologie": "OS", "name": "File Systems" },
+  { "parent": "Back-end", "technologie": "OS", "name": "Networking Concepts" },
+  { "parent": "Back-end", "technologie": "OS", "name": "POSIX Basics" },
+  {
+    "parent": "Back-end",
+    "technologie": "Compilers",
+    "name": "Compiling apps from source"
+  },
+  { "parent": "Back-end", "technologie": "", "name": "Learn Bash Scripting" },
+  {
+    "parent": "Back-end",
+    "technologie": "Compilers",
+    "name": "(gcc, make and other related stuff)"
+  },
+  {
+    "parent": "Back-end",
+    "technologie": "IDE",
+    "name": "Vim/Nano/PowerShell/Emacs"
+  },
+  {
+    "parent": "Back-end",
+    "technologie": "IDE",
+    "name": "name Manipulation Tools"
+  },
+  {
+    "parent": "Back-end",
+    "technologie": "Shell",
+    "name": "awk, sed, grep, sort, uniq, cat, cut"
+  },
+  {
+    "parent": "Back-end",
+    "technologie": "Shell",
+    "name": "echo, fmt, tr, nl, egrep, fgrep, wc"
+  },
+  {
+    "parent": "Back-end",
+    "technologie": "Shell",
+    "name": "Process Monitoring"
+  },
+  {
+    "parent": "Back-end",
+    "technologie": "Shell",
+    "name": "ps, top, htop, atop, lsof"
+  },
+  {
+    "parent": "Back-end",
+    "technologie": "Shell",
+    "name": "System Performance"
+  },
+  {
+    "parent": "Back-end",
+    "technologie": "Shell",
+    "name": "nmon, iostat, sar, vmstat"
+  },
+  { "parent": "Back-end", "technologie": "Shell", "name": "Network" },
+  {
+    "parent": "Back-end",
+    "technologie": "Shell",
+    "name": "nmap, tcpdump, ping, mtr, traceroute, dig"
+  },
+  {
+    "parent": "Back-end",
+    "technologie": "Shell",
+    "name": "airmon, airodump, iptables, netstat"
+  },
+  { "parent": "Back-end", "technologie": "Internet", "name": "Others" },
+  {
+    "parent": "Back-end",
+    "technologie": "Internet",
+    "name": "strace, dtrace, systemtap"
+  },
+  {
+    "parent": "Back-end",
+    "technologie": "Internet",
+    "name": "uname, df, history"
+  },
+  { "parent": "Back-end", "technologie": "Internet", "name": "DNS" },
+  { "parent": "Back-end", "technologie": "Internet", "name": "OSI Model" },
+  { "parent": "Back-end", "technologie": "Internet", "name": "HTTP" },
+  { "parent": "Back-end", "technologie": "Internet", "name": "HTTPS" },
+  { "parent": "Back-end", "technologie": "Internet", "name": "FTP" },
+  { "parent": "Back-end", "technologie": "Internet", "name": "SSL / TLS" },
+  { "parent": "Back-end", "technologie": "Internet", "name": "SSH" },
+  {
+    "parent": "Back-end",
+    "technologie": "Internet",
+    "name": "Port Forwarding"
+  },
+  {
+    "parent": "Back-end",
+    "technologie": "Servers",
+    "name": "Learn about Managing Servers"
+  },
+  { "parent": "Back-end", "technologie": "OS", "name": "Linux" },
+  { "parent": "Back-end", "technologie": "OS", "name": "Unix" },
+  { "parent": "Back-end", "technologie": "OS", "name": "Windows" },
+  {
+    "parent": "Back-end",
+    "technologie": "Internet",
+    "name": "Networking, Security and Protocols"
+  },
+
+  { "parent": "Back-end", "technologie": "Security", "name": "Web Server" },
+  { "parent": "Back-end", "technologie": "Security", "name": "Forward Proxy" },
+  { "parent": "Back-end", "technologie": "Security", "name": "Caching Server" },
+  { "parent": "Back-end", "technologie": "Security", "name": "Apache" },
+  { "parent": "Back-end", "technologie": "Security", "name": "Nginx" },
+  { "parent": "Back-end", "technologie": "Security", "name": "Tomcat" },
+  { "parent": "Back-end", "technologie": "Security", "name": "Caddy" },
+  { "parent": "Back-end", "technologie": "Security", "name": "IIS" },
+  { "parent": "Back-end", "technologie": "Security", "name": "Reverse Proxy" },
+  { "parent": "Back-end", "technologie": "Security", "name": "Load Balancer" },
+  { "parent": "Back-end", "technologie": "Security", "name": "Firewall" }
+]

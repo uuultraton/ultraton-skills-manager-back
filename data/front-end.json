@@ -1,0 +1,452 @@
+[
+  {
+    "parent": "Front-end",
+    "technologie": "HTML",
+    "name": "Learn the basics"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "HTML",
+    "name": "Writing Semantic HTML"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "HTML",
+    "name": "Writing Semantic HTML"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "HTML",
+    "name": "Conventions and Best Practices"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Making Layouts"
+  },
+  {
+    "parent": "Front-end",
+    "name": "Floats",
+    "technologie": "CSS"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Responsive design and Media Queries"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Positioning"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Box Model"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "CSS Grid"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Flex Box"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Syntax and Basic Constructs"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Learn DOM Manipulation"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Hoisting, Event Bubbling, Scope,"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Prototype, Shadow DOM, strict,"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Prototype, Shadow DOM, strict,"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Learn Fetch API / Ajax (XHR)"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Find the detailed version of this roadmap"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "along with resources and other roadmaps"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Forms and Validations"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Internet"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "Internet",
+    "name": "How does the internet work?"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "Internet",
+    "name": "What is HTTP?"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "Internet",
+    "name": "Browsers and how they work?"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "Internet",
+    "name": "What is Domain 'Name'"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "What is hosting?"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Accessibility"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "SEO Basics"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "GIT",
+    "name": "Basic Usage of Git"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "GIT",
+    "name": "GitHub"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "GIT",
+    "name": "Repo hosting services"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "GIT",
+    "name": "Create account and Learn to use GitHub"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "GIT",
+    "name": "Version Control Systems"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "GIT",
+    "name": "What are they and why you should use one"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "GIT",
+    "name": "Package Managers"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "npm",
+    "name": "npm"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "yarn",
+    "name": "yarn"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "npm",
+    "name": "npm and yarn both are fine, pick"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "npm",
+    "name": "Bitbucket"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "GIT",
+    "name": "GitLab"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "Internet",
+    "name": "Web Security Knowledge"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "Internet",
+    "name": "Personal Recommendation / Opinion"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "Internet",
+    "name": "CORS"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "Internet",
+    "name": "HTTPS"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "Internet",
+    "name": "Content Security Policy"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "Internet",
+    "name": "OWASP Security Risks"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "Internet",
+    "name": "Get at least a basic knowledge of all of these"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "CSS Preprocessors"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "With how the modern frameworks there has been"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "more push towards CSS-in-JS so you may not need"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "more push towards CSS-in-JS so you may not need"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "CSS Architecture"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "HTML",
+    "name": "BEM"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "SMACSS"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "npm scripts"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Gulp"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Prettier"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "ESLint"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "StandardJS"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Webpack"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Rollup"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Parcel"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Module Bundlers"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Pick a Framework"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "React.js"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Angular"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Vue.js"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Redux"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "MobX"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Modern CSS"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Less"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "VueX"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "RxJS"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "NgRx"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Styled Components"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "CSS Modules"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Flow"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Next.js"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Nuxt.js"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Bootstrap"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Materialize CSS"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Material UI"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Jest"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Chai"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "CSS",
+    "name": "Jasmine"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "TypeScript"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Type Checkers"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Location"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "Web Sockets"
+  },
+  {
+    "parent": "Front-end",
+    "technologie": "JS",
+    "name": "APIs used in PWAs"
+  }
+]
