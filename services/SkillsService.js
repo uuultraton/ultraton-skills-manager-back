@@ -12,6 +12,12 @@ class SkillsService {
 
     return skillDocs;
   }
+
+  async getUnlearnedSkills(skills) {
+    const skillDocs = await SkillModel.getUnlearnedSkills(skills);
+
+    return skillDocs;
+  }
 }
 
 module.exports = new SkillsService();

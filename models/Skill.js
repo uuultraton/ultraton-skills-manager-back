@@ -4,14 +4,16 @@ const { Schema } = mongoose;
 
 const skillSchema = new Schema({
   name: { type: String, unique: true, required: true },
-  posLeft: { type: Number, required: true },
+  technologie: { type: String, required: true },
+  parent: String,
 });
 
 class SkillClass {
   static async createSkill(skill) {
     const createdDoc = await this.create({
       name: skill.name,
-      posLeft: skill.posLeft,
+      technologie: skill.technologie,
+      parent: skill.parent,
     });
 
     return createdDoc;
@@ -19,6 +21,18 @@ class SkillClass {
 
   static async getSkills() {
     const skillDocs = await this.find({});
+
+    return skillDocs;
+  }
+
+  static async getUnlearnedSkills(skills) {
+    const learnedSkils = [];
+
+    skills.forEach((skill) => {
+      learnedSkils.push(skill.name);
+    });
+
+    const skillDocs = await this.find({ name: { $nin: learnedSkils } });
 
     return skillDocs;
   }

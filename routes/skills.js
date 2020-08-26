@@ -12,6 +12,8 @@ router.post(
   skillsController.postSkills,
 );
 
+router.post('/api/skills/result', skillsController.postCheckedSkills);
+
 router.get('/api/skills', skillsController.getSkills);
 
 module.exports = router;
