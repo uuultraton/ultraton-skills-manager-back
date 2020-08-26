@@ -1,476 +1,476 @@
 [
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Bash Scripting",
     "name": "(gcc, make and other related stuff)"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Bash Scripting",
     "name": "Vim/Nano/PowerShell/Emacs"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "name Manipulation Tools",
     "name": "awk, sed, grep, sort, uniq, cat, cut"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "name Manipulation Tools",
     "name": "echo, fmt, tr, nl, egrep, fgrep, wc"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Process Monitoring",
     "name": "ps, top, htop, atop, lsof"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "System Performance",
     "name": "nmon, iostat, sar, vmstat"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "System Performance",
     "name": "Network"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "System Performance",
     "name": "nmap, tcpdump, ping, mtr, traceroute, dig"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "System Performance",
     "name": "airmon, airodump, iptables, netstat"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Others",
     "name": "strace, dtrace, systemtap"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Others",
     "name": "uname, df, history"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Others",
     "name": "DNS"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Others",
     "name": "OSI Model"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Others",
     "name": "HTTP"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Others",
     "name": "HTTPS"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Others",
     "name": "FTP"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Others",
     "name": "SSL / TLS"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Others",
     "name": "SSH"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Others",
     "name": "Port Forwarding"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "Linux"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "Unix"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "Windows"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Networking, Security and Protocols",
     "name": "Web Server"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Networking, Security and Protocols",
     "name": "Forward Proxy"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Networking, Security and Protocols",
     "name": "Caching Server"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Networking, Security and Protocols",
     "name": "Apache"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Networking, Security and Protocols",
     "name": "Nginx"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Networking, Security and Protocols",
     "name": "Tomcat"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Networking, Security and Protocols",
     "name": "IIS"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Networking, Security and Protocols",
     "name": "Reverse Proxy"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Networking, Security and Protocols",
     "name": "Load Balancer"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Networking, Security and Protocols",
     "name": "Firewall"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Config Control Systems",
     "name": "Configuration Management"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Config Control Systems",
     "name": "Ansible"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Config Control Systems",
     "name": "Chef"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Config Control Systems",
     "name": "Puppet"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Config Control Systems",
     "name": "Salt"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "CI/CD",
     "name": "Jenkins"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "CI/CD",
     "name": "Travis CI"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "CI/CD",
     "name": "Circle CI"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "CI/CD",
     "name": "Containers"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "CI/CD",
     "name": "Docker"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "CI/CD",
     "name": "LXC"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "CI/CD",
     "name": "TeamCity"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Infrastructure Monitoring"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Nagios"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Grafana"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Datadog"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Zabbix"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Application Monitoring"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Monit"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Jaeger"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "New Relic"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Logs Management"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Elastic Stack"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Graylog"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Splunk"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Papertrail"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Cloud Providers"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "AWS"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Google Cloud"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Azure"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Digital Ocean"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Heroku"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Keep Learning"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Container Orchestration"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Kubernetes"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Mesos"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Docker Swarm"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Monitor software and infrastructure",
     "name": "Nomad"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Programming Language",
     "name": "Ruby"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Programming Language",
     "name": "Python"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Programming Language",
     "name": "Node.js"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Programming Language",
     "name": "Go"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Programming Language",
     "name": "Rust"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Programming Language",
     "name": "C"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "FreeBSD"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "OpenBSD"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "NetBSD"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "RHEL"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "CentOS"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "Ubuntu"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "Fedora"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "Debian"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "OS",
     "name": "SUSE Linux"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Hosting",
     "name": "Linode"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Hosting",
     "name": "Vultr"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Emails",
     "name": "SMTP"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Emails",
     "name": "IMAPS"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Emails",
     "name": "POP3S"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Emails",
     "name": "DMARC"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Emails",
     "name": "SPF"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Emails",
     "name": "Domain Keys"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Emails",
     "name": "White/Grey Listing"
   },
   {
-    "parent": "dev-ops",
+    "parent": "Dev-ops",
     "technologie": "Programming Language",
     "name": "C++"
   }

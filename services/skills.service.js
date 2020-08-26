@@ -1,28 +1,19 @@
-const { Skill } = require('../models');
+const SkillModel = require('../models/Skill.model');
+
 const { LOGS } = require('../constants');
-const { directions, skills } = require('../data');
+const { directions } = require('../data');
+
 const errorHandler = require('errorhandler');
 
 class SkillsService {
-  async getAllSkills() {
-    try {
-      // const skills = await Skill.find({});
+  async createSkill(skill) {
+    const skillDoc = await SkillModel.createSkill(skill);
 
-      if (!skills) {
-        errorHandler(LOGS.ERROR.SKILLS_NOT_FOUND);
-        return;
-      }
-
-      return skills;
-    } catch (error) {
-      return errorHandler(error.message);
-    }
+    return skillDoc;
   }
 
   async getAllDirections() {
     try {
-      // const skills = await Skill.find({});
-
       if (!directions) {
         errorHandler(LOGS.ERROR.SKILLS_NOT_FOUND);
         return;
@@ -30,76 +21,89 @@ class SkillsService {
 
       return directions;
     } catch (error) {
-      return errorHandler(error.message);
+      errorHandler(error.message);
+      return;
+    }
+  }
+
+  async getAllSkills() {
+    try {
+      const skillDocs = await SkillModel.getAllSkills();
+
+      if (!skillDocs) {
+        errorHandler(LOGS.ERROR.SKILLS_NOT_FOUND);
+        return;
+      }
+
+      return skillDocs;
+    } catch (error) {
+      errorHandler(error.message);
+      return;
+    }
+  }
+
+  async getUnlearnedSkills(skills) {
+    try {
+      const skillDocs = await SkillModel.getUnlearnedSkills(skills);
+
+      return skillDocs;
+    } catch (error) {
+      errorHandler(error.message);
+      return;
     }
   }
 
   async getSkillsByDirection(direction) {
     try {
-      // const skills = await Skill.find({
-      //   parent: direction,
-      // });
+      const skillDocs = await SkillModel.getSkillsByDirection(direction);
 
-      const skills = (() => {
-        switch (direction) {
-          case 'Back-end':
-            return backEnd;
-
-          case 'Front-end':
-            return frontEnd;
-
-          case 'Dev-ops':
-            return devOps;
-
-          default:
-            return errorHandler(LOGS.ERROR.SKILLS_NOT_FOUND);
-        }
-      })();
-
-      if (!skills) {
+      if (!skillDocs) {
         errorHandler(LOGS.ERROR.SKILLS_NOT_FOUND);
         return;
       }
 
-      return skills;
+      return skillDocs;
     } catch (error) {
-      return errorHandler(error.message);
+      errorHandler(error.message);
+      return;
     }
   }
 
-  async getSkillsByTechnologie(technologie) {
-    try {
-      const skills = await Skill.find({
-        technologie,
-      });
+  // async getSkillsByTechnologie(technologie) {
+  //   try {
+  //     const skills = await Skill.find({
+  //       technologie,
+  //     });
 
-      if (!skills) {
-        errorHandler(LOGS.ERROR.SKILLS_NOT_FOUND);
-        return;
-      }
+  //     if (!skills) {
+  //       errorHandler(LOGS.ERROR.SKILLS_NOT_FOUND);
+  //       return;
+  //     }
 
-      return skills;
-    } catch (error) {
-      return errorHandler(error.message);
-    }
-  }
+  //     return skills;
+  //   } catch (error) {
+  //     errorHandler(error.message);
+  //     return;
+  //   }
+  // }
 
-  async getSkillByName(name) {
-    try {
-      const skills = await Skill.find({
-        name,
-      });
+  // async getSkillByName(name) {
+  //   try {
+  //     const skills = await Skill.find({
+  //       name,
+  //     });
 
-      if (!skills) {
-        errorHandler(LOGS.ERROR.SKILLS_NOT_FOUND);
-        return;
-      }
+  //     if (!skills) {
+  //       errorHandler(LOGS.ERROR.SKILLS_NOT_FOUND);
+  //       return;
+  //     }
 
-      return skills;
-    } catch (error) {
-      return errorHandler(error.message);
-    }
-  }
+  //     return skills;
+  //   } catch (error) {
+  //     errorHandler(error.message);
+  //     return;
+  //   }
+  // }
 }
 
 module.exports = new SkillsService();
