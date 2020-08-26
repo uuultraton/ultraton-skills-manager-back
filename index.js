@@ -2,13 +2,14 @@ const express = require('express'),
   errorhandler = require('errorhandler'),
   cors = require('cors'),
   mongoose = require('mongoose'),
-  config = require('config');
+  config = require('config'),
+  log4js = require('log4js');
 
-const app = express();
-const log4js = require('log4js');
+const skillsRouter = require('./routes/skills');
+
+const { connectDB } = require('./utils');
 
 const { PORT } = config.get('SERVER');
-const { connectDB } = require('./utils');
 
 const isProduction = process.env.PRODUCTION || config.get('isProduction');
 
@@ -16,6 +17,8 @@ const dbConnection = connectDB();
 const logger = log4js.getLogger();
 
 logger.level = config.get('LOGGER_LVL');
+
+const app = express();
 
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
@@ -33,6 +36,8 @@ if (!dbConnection) {
 if (!isProduction) {
   mongoose.set('debug', true);
 }
+
+app.use(skillsRouter);
 
 /// catch 404 and forward to error handler
 app.use(function (req, res, next) {
